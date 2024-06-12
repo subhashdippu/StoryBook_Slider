@@ -1,0 +1,23 @@
+/* src/Slider.css */
+.slider-container {
+    margin: 20px;
+  }
+  
+  .handle-size-24 .MuiSlider-thumb {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .handle-size-32 .MuiSlider-thumb {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .MuiSlider-thumb:hover {
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);
+  }
+  
+  .MuiSlider-thumb.Mui-active {
+    box-shadow: 0px 0px 0px 14px rgba(0, 0, 0, 0.16);
+  }
+  
