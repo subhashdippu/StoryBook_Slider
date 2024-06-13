@@ -1,4 +1,3 @@
-// src/Slider.stories.js
 import React from 'react';
 import Slider from './Slider';
 
