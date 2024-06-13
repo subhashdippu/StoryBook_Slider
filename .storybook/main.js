@@ -1,6 +1,6 @@
 /** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
-  stories: ['../src/**/*.stories.js'],
+  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
@@ -15,15 +15,4 @@ const config = {
   },
   staticDirs: ["../public"],
 };
-
-// .storybook/main.js
-module.exports = {
-  stories: ['../src/**/*.stories.js'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
-  previewHead: (head) => `
-    ${head}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-  `,
-};
-
 export default config;
