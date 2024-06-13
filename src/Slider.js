@@ -1,3 +1,4 @@
+// src/Slider.js
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Slider as MUISlider } from '@mui/material';
@@ -44,4 +45,4 @@ Slider.defaultProps = {
     handleSize: 'Size_24',
 };
 
-export default Slider
+export default Slider;
